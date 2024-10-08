@@ -102,7 +102,7 @@ class StringToMoment { //Analyse une chaîne de caractères et renvoie une date
 						mois = 11;
 						break;
 						
-					default:
+					default: console.log('Erreur dans le mois');
 					
 				}
 				
