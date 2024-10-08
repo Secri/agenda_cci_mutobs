@@ -184,7 +184,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 /***********     MUTATION OBSERVER    ***********/
 /* voir https://developer.mozilla.org/fr/docs/Web/API/MutationObserver */
-const config = { attributes: false, childList: true, subtree: false };//Options pour le mutation observer, on s'occupe de la liste des enfant uniquement
+const config = { attributes: false, childList: true, subtree: false };//Options pour le mutation observer, on s'occupe de la liste des enfants uniquement
 				
 const observer = new MutationObserver(mutobs_callback);// On crée une instance du mutation observer
 				
