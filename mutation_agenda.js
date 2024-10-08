@@ -175,7 +175,7 @@ function eventDeprecate () {
 				
 }
 
-/** On lance une première la fonction de dépréciation au chargement du DOM **/			
+/** On lance une première fois la fonction de dépréciation au chargement du DOM **/			
 document.addEventListener('DOMContentLoaded', function() {
 				
 	eventDeprecate();
